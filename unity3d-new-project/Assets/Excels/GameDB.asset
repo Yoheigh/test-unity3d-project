@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1d8cffffd438648b0ea5f8ed98d520, type: 3}
+  m_Name: GameDB
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - index: 1
+      name: Character_001
+      hp: 5
+      mp: 8
+      dex: 2
+    - index: 2
+      name: Character_002
+      hp: 4
+      mp: 5
+      dex: 3
+    - index: 3
+      name: Character_003
+      hp: 1
+      mp: 2
+      dex: 9
+    - index: 4
+      name: Character_004
+      hp: 56
+      mp: 78
+      dex: 6
+    - index: 5
+      name: Character_005
+      hp: 9
+      mp: 52
+      dex: 7

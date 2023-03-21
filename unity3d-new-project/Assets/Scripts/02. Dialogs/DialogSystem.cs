@@ -11,18 +11,40 @@ public class DialogSystem : MonoBehaviour
     [SerializeField]
     private DialogData[] dialogs;
     [SerializeField]
-    private bool DialogInit = true;
+    private bool DialogInit = true;     // Init 검사 FLAG
     [SerializeField]
-    private bool dialogsDB = false;
+    private bool dialogsDB = false;     // DB 데이터 읽기 FLAG
 
     public int currentDialogIndex = -1;
     public int currentSpeakerIndex = 0;
     public float typingSpeed = 0.1f;
     private bool isTypingEffect = false;
 
+    public Entity_Dialogue entity_dialogue;
+
     private void Awake()
     {
         SetAllClose();
+        if(dialogsDB)
+        {
+            Array.Clear(dialogs, 0, dialogs.Length);
+            Array.Resize(ref dialogs, entity_dialogue.sheets[0].list.Count);
+
+            int ArrayCursor = 0;
+
+            foreach(Entity_Dialogue.Param param in entity_dialogue.sheets[0].list)
+            {
+                dialogs[ArrayCursor].index = param.index;
+                dialogs[ArrayCursor].speakerUIindex = param.speakerUIindex;
+                dialogs[ArrayCursor].name = param.name;
+                dialogs[ArrayCursor].dialogue = param.dialogue;
+                dialogs[ArrayCursor].characterPath = param.characterPath;
+                dialogs[ArrayCursor].tweenType = param.tweenType;
+                dialogs[ArrayCursor].nextindex = param.nextindex;
+
+                ArrayCursor += 1;
+            }
+        }
     }
 
     private void SetActiveObjects(SpeakerUI speaker, bool visible)

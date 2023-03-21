@@ -888,12 +888,13 @@ MonoBehaviour:
     dialogue: "\uC671 \u314F\u3134\uB418\uC9C0"
     characterPath: None
     tweenType: 0
-    nextindex: 3
+    nextindex: 2
   DialogInit: 1
   dialogsDB: 0
   currentDialogIndex: -1
   currentSpeakerIndex: 0
   typingSpeed: 0.1
+  entity_dialogue: {fileID: 11400000, guid: 1fa9afc64de046c42b7797326aacf444, type: 2}
 --- !u!4 &1858495142
 Transform:
   m_ObjectHideFlags: 0

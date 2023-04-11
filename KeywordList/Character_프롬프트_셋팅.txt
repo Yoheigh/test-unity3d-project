@@ -1,0 +1,3 @@
+(from above:1.4), 1girl, forest, volumetric light, long hair, yellow hair, fantasy outfit, camisole, birds, trees, looking at viewer, left eye closed,
+Negative prompt: worst quality, low quality, low_resolution:1.4, missing arms, missing hands, nsfw
+Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 713932168, Size: 512x768, Model hash: 5493a0ec49, Model: abyssorangemix3AOM3_aom3a1b

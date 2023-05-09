@@ -80,3 +80,23 @@ prompt:
 
 Nagative prompt:
 > nsfw, lowres, mask,
+
+# Pix2Pix
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Pix2Pix_Before.png?raw=true)
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Pix2Pix_After.png?raw=true)
+
+# Tile
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Tile_Before.png?raw=true)
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Tile_After.png?raw=true)
+
+# Depth
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Depth_Before.png?raw=true)
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Depth_After.png?raw=true)
+
+# Seg
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Seg_Before.png?raw=true)
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Seg_After.png?raw=true)
+
+# Openpose
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Openpose_Before.png?raw=true)
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Openpose_After.png?raw=true)

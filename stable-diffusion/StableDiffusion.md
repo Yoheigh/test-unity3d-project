@@ -100,3 +100,10 @@ Nagative prompt:
 # Openpose
 ![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Openpose_Before.png?raw=true)
 ![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/Openpose_After.png?raw=true)
+
+# Regional Prompter
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/00023-2523796087.png?raw=true)
+
+# Dynamic Prompts (WildCard)
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/00002-4908357.png?raw=true)
+![image](https://github.com/Yoheigh/test-unity3d-project/blob/main/stable-diffusion/ControlNet/00004-1396742090.png?raw=true)
